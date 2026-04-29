@@ -68,7 +68,7 @@ print(df.groupby(['day_of_week', 'member_casual']).size())
 # Rides by Month
 print(df.groupby(['month', 'member_casual']).size())
 
-"""
+
  # Visualisation
 
 import seaborn as sns
@@ -91,7 +91,7 @@ plt.xticks(rotation=45)
 plt.title("Rides by Month")
 plt.show()
 
-"""
+
 
 # Total Rides
 rides_summary = df.groupby('member_casual')['ride_id'].count().reset_index()
