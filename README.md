@@ -1,6 +1,6 @@
 # Cyclistic Bike-Share Data Analysis
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyzes over **5.9 million bike-share records** to understand how casual riders and annual members use Cyclistic bikes differently.
 
@@ -8,7 +8,7 @@ The goal is to generate insights that can help convert casual riders into annual
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 Cyclistic wants to increase the number of annual memberships.  
 To achieve this, we analyze behavioral differences between:
@@ -18,14 +18,14 @@ To achieve this, we analyze behavioral differences between:
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - Python (Pandas, Matplotlib, Seaborn)
 
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 - Converted datetime columns using `pd.to_datetime()`
 - Handled invalid values using `errors='coerce'`
@@ -36,37 +36,33 @@ To achieve this, we analyze behavioral differences between:
 
 ---
 
-## 📈 Key Insights
+##  Key Insights
 
-- 🔹 Members take significantly more rides than casual riders
-- 🔹 Casual riders have longer average ride durations
-- 🔹 Members ride mostly on weekdays (commuting behavior)
-- 🔹 Casual riders prefer weekends (leisure usage)
-- 🔹 Casual ridership peaks during summer months
+-  Members take significantly more rides than casual riders
+-  Casual riders have longer average ride durations
+-  Members ride mostly on weekdays (commuting behavior)
+-  Casual riders prefer weekends (leisure usage)
+-  Casual ridership peaks during summer months
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 ### 1. Total Rides by User Type
 
 ![Total Rides](Visualisations/average_ride_duration.png)
 
-### 2. Average Ride Duration
+### 2. Rides by Day of Week
 
-![Average Duration](visuals/avg_duration.png)
+![Day Trends](Visualisations/day_trend.png)
 
-### 3. Rides by Day of Week
+### 3.  Rides by Month
 
-![Day Trends](visuals/day_trend.png)
-
-### 4. Rides by Month
-
-![Month Trends](visuals/month_trend.png)
+![Month Trends](Visualisations/month_trend.png)
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 1. **Convert Casual Riders to Members**
    - Offer discounts and trial memberships
@@ -79,4 +75,4 @@ To achieve this, we analyze behavioral differences between:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
